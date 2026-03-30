@@ -1,0 +1,83 @@
+
+/* hero */
+.hero-sec {
+    height: 650px;
+    width: 100%;
+    background-image: url("../assets/hero.jpg");
+    background-size: cover;
+}
+
+.shop-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s-box {
+    margin-top: 250px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-box>div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.s-box1 {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #111111;
+}
+
+.s-box2 {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.s-box3 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.s-box2 > div {
+    height: 130px;
+    width: 130px;
+}
+
+.s-box3 > a {
+    text-decoration: none;
+}
+
+.imge1 {
+    height: 90%;
+    width: 100%;
+}
+.para1 {
+    height: 10%;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.hm-1 {
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+#game {
+    height: 100%;
+    width: 100%;
+}
+
+#g-p {
+    padding: 10px;
+}
+
